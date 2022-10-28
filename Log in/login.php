@@ -18,7 +18,7 @@ session_start();
                 
                 $admin1 ="admin";
                 $Padmin1 ="pass1234";
-                $admin2 = "renmark";
+                $admin2 = "carlo";
                 $Padmin2 = "pog1234";
                 
     
