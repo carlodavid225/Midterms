@@ -77,7 +77,7 @@ echo '<b>Purchase Summary:</b> <br>';
 
                 if (($SodaValue == "Royal")&&($SizeValue == "Regular")){
                     $royal = 20 * $SodaQty;
-                    $QtyRoyal; = $SodaQty;
+                    $QtyRoyal = $SodaQty;
                     if($SodaQty > 1){
                         echo '&#9; <li> ',$SodaQty,' ','pieces of ',$SizeValue,' ',$SodaValue,' amounting to ',' ₱ ',$royal,'</li> <br>';
                     }
